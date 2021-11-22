@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping
 import org.springframework.web.bind.annotation.RestController
 
 @RestController
-@RequestMapping("greeting")
-class GreetingController {
+@RequestMapping("coroutine")
+class CoroutineController {
 
     @GetMapping
     fun get(): String{
